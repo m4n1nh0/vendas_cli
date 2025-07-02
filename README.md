@@ -167,6 +167,8 @@ vendas-cli dados/vendas_exemplo.csv --start 2025-01-01 --end 2025-02-15
 * Pensado para **uso real em empresas** com múltiplos produtos e clientes.
 * Campos extras (`códigos`, `cidade`, `unidade`) **refletem necessidades de negócio**.
 * Modularização clara permite fácil expansão (ex: filtros por cidade/UF).
+* Inclusão de log detalhado e ajuste para que o log não interfira no relatório
+* Inclusão de doc string nas funções
 
 
 ### Autor
