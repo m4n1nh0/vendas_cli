@@ -48,7 +48,7 @@ cd vendas_cli
 pip install .
 ```
 
-> Instalará o comando `vendas-cli` no seu terminal.
+> Instalará o comando `vendas_cli` no seu terminal.
 
 ### Como desinstalar
 
@@ -56,7 +56,7 @@ pip install .
 pip uninstall vendas_cli
 ```
 
-> Desinstalará o comando `vendas-cli` no seu terminal.
+> Desinstalará o comando `vendas_cli` no seu terminal.
 
 ### Testes
 
@@ -114,7 +114,7 @@ vendas_cli dados/vendas.csv --format json
 vendas_cli dados/vendas.csv --start 2025-01-01 --end 2025-03-31
 
 # Ver menu de ajuda
-vendas-cli --help
+vendas_cli --help
 ```
 
 ### Exemplo de saída (texto)
@@ -150,13 +150,13 @@ Este projeto já inclui um arquivo de exemplo com 50 vendas simuladas:
 
 ```bash
 # Relatório em formato texto
-vendas-cli dados/vendas_exemplo.csv
+vendas_cli dados/vendas_exemplo.csv
 
 # Em formato JSON
-vendas-cli dados/vendas_exemplo.csv --format json
+vendas_cli dados/vendas_exemplo.csv --format json
 
 # Filtrando por intervalo de datas
-vendas-cli dados/vendas_exemplo.csv --start 2025-01-01 --end 2025-02-15
+vendas_cli dados/vendas_exemplo.csv --start 2025-01-01 --end 2025-02-15
 ```
 
 > Ideal para testar a CLI rapidamente sem precisar preparar dados reais.

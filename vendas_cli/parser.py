@@ -15,9 +15,9 @@ def parse_args() -> Tuple[str, str, Optional[str], Optional[str]]:
     - --end: data final para filtro no formato 'YYYY-MM-DD' (opcional).
 
     Exemplo de uso:
-      vendas-cli vendas.csv
-      vendas-cli vendas.csv --format json
-      vendas-cli vendas.csv --start 2025-01-01 --end 2025-03-31 --format text
+      vendas_cli vendas.csv
+      vendas_cli vendas.csv --format json
+      vendas_cli vendas.csv --start 2025-01-01 --end 2025-03-31 --format text
 
     :return: Tupla contendo (csv_path, format, start, end)
     """
@@ -26,9 +26,9 @@ def parse_args() -> Tuple[str, str, Optional[str], Optional[str]]:
         description="Gerador de Relatorio de Vendas",
         epilog="""
 Exemplos:
-  vendas-cli vendas.csv
-  vendas-cli vendas.csv --format (json ou text)
-  vendas-cli vendas.csv --start 2025-01-01 --end 2025-03-31 --format (json ou text)
+  vendas_cli vendas.csv
+  vendas_cli vendas.csv --format (json ou text)
+  vendas_cli vendas.csv --start 2025-01-01 --end 2025-03-31 --format (json ou text)
 """,
         formatter_class=argparse.RawTextHelpFormatter
     )
