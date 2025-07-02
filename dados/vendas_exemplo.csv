@@ -1,0 +1,51 @@
+numero_venda,data_venda,produto,codigo_produto,unidade,valor_venda,cliente,codigo_cliente,cidade_cliente,estado_cliente
+V0001,2025-02-13,Caneta,P001,un,19.27,Ana Paula,C001,Aracaju,SE
+V0002,2025-02-03,Lápis,P003,un,180.62,Ana Paula,C001,Aracaju,SE
+V0003,2025-02-26,Mochila,P005,un,158.46,Carlos Silva,C004,Recife,PE
+V0004,2025-01-03,Mochila,P005,un,69.43,Mariana Lima,C003,Belo Horizonte,MG
+V0005,2025-02-18,Caneta,P001,un,81.10,Beatriz Rocha,C005,Curitiba,PR
+V0006,2025-03-12,Borracha,P004,un,95.34,João Souza,C002,São Paulo,SP
+V0007,2025-03-07,Caneta,P001,un,139.58,Beatriz Rocha,C005,Curitiba,PR
+V0008,2025-03-10,Mochila,P005,un,64.66,Carlos Silva,C004,Recife,PE
+V0009,2025-03-08,Mochila,P005,un,86.16,Carlos Silva,C004,Recife,PE
+V0010,2025-02-17,Caneta,P001,un,9.46,Beatriz Rocha,C005,Curitiba,PR
+V0011,2025-02-01,Caderno,P002,un,25.10,João Souza,C002,São Paulo,SP
+V0012,2025-02-12,Mochila,P005,un,172.96,João Souza,C002,São Paulo,SP
+V0013,2025-03-20,Borracha,P004,un,96.18,Carlos Silva,C004,Recife,PE
+V0014,2025-01-14,Lápis,P003,un,78.89,Carlos Silva,C004,Recife,PE
+V0015,2025-01-30,Lápis,P003,un,111.30,Carlos Silva,C004,Recife,PE
+V0016,2025-03-02,Caderno,P002,un,100.70,João Souza,C002,São Paulo,SP
+V0017,2025-01-26,Caderno,P002,un,177.77,Ana Paula,C001,Aracaju,SE
+V0018,2025-02-03,Caneta,P001,un,86.17,João Souza,C002,São Paulo,SP
+V0019,2025-03-25,Borracha,P004,un,43.26,João Souza,C002,São Paulo,SP
+V0020,2025-03-01,Caderno,P002,un,125.34,João Souza,C002,São Paulo,SP
+V0021,2025-02-12,Mochila,P005,un,37.50,Ana Paula,C001,Aracaju,SE
+V0022,2025-01-28,Lápis,P003,un,133.62,Carlos Silva,C004,Recife,PE
+V0023,2025-03-14,Borracha,P004,un,130.05,João Souza,C002,São Paulo,SP
+V0024,2025-02-05,Caderno,P002,un,23.00,Beatriz Rocha,C005,Curitiba,PR
+V0025,2025-02-01,Mochila,P005,un,106.80,Carlos Silva,C004,Recife,PE
+V0026,2025-02-04,Lápis,P003,un,7.89,Beatriz Rocha,C005,Curitiba,PR
+V0027,2025-03-14,Borracha,P004,un,11.79,Carlos Silva,C004,Recife,PE
+V0028,2025-03-26,Caderno,P002,un,173.60,Beatriz Rocha,C005,Curitiba,PR
+V0029,2025-03-03,Lápis,P003,un,8.59,João Souza,C002,São Paulo,SP
+V0030,2025-03-13,Mochila,P005,un,7.54,Mariana Lima,C003,Belo Horizonte,MG
+V0031,2025-02-23,Caneta,P001,un,55.34,Carlos Silva,C004,Recife,PE
+V0032,2025-01-24,Caneta,P001,un,95.33,Mariana Lima,C003,Belo Horizonte,MG
+V0033,2025-02-23,Lápis,P003,un,165.51,Beatriz Rocha,C005,Curitiba,PR
+V0034,2025-03-23,Borracha,P004,un,92.24,Ana Paula,C001,Aracaju,SE
+V0035,2025-01-21,Borracha,P004,un,177.86,Beatriz Rocha,C005,Curitiba,PR
+V0036,2025-03-23,Borracha,P004,un,149.05,Mariana Lima,C003,Belo Horizonte,MG
+V0037,2025-03-04,Mochila,P005,un,91.02,Ana Paula,C001,Aracaju,SE
+V0038,2025-03-27,Lápis,P003,un,44.01,Mariana Lima,C003,Belo Horizonte,MG
+V0039,2025-03-01,Caneta,P001,un,126.72,Mariana Lima,C003,Belo Horizonte,MG
+V0040,2025-02-28,Mochila,P005,un,60.80,Carlos Silva,C004,Recife,PE
+V0041,2025-01-27,Mochila,P005,un,136.62,Carlos Silva,C004,Recife,PE
+V0042,2025-01-17,Borracha,P004,un,64.86,Mariana Lima,C003,Belo Horizonte,MG
+V0043,2025-03-10,Caneta,P001,un,11.58,Beatriz Rocha,C005,Curitiba,PR
+V0044,2025-01-22,Lápis,P003,un,62.61,Beatriz Rocha,C005,Curitiba,PR
+V0045,2025-01-01,Lápis,P003,un,50.18,João Souza,C002,São Paulo,SP
+V0046,2025-01-04,Caderno,P002,un,107.08,João Souza,C002,São Paulo,SP
+V0047,2025-03-29,Mochila,P005,un,44.60,Mariana Lima,C003,Belo Horizonte,MG
+V0048,2025-01-16,Caderno,P002,un,117.83,Carlos Silva,C004,Recife,PE
+V0049,2025-01-10,Caneta,P001,un,188.28,Beatriz Rocha,C005,Curitiba,PR
+V0050,2025-02-14,Caderno,P002,un,138.19,Ana Paula,C001,Aracaju,SE
