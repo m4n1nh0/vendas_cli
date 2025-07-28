@@ -1,6 +1,6 @@
 from vendas_cli.parser import parse_args
 from vendas_cli.core import load_sales, calcular_relatorio, logger_sys
-from vendas_cli.output import formatar_como_texto, formatar_como_json
+from vendas_cli.output import formatar_como_texto, formatar_como_json, formatar_como_pdf
 
 
 def main():
@@ -14,9 +14,9 @@ def main():
     - Realiza logs das etapas principais e erros, se ocorrerem.
     """
     try:
-        csv_path, formato, start, end = parse_args()
+        csv_path, formato, start, end, name = parse_args()
         logger_sys.info(f"Execução iniciada com arquivo: {csv_path}, formato: "
-                        f"{formato}, intervalo: {start} a {end}")
+                        f"{formato}, intervalo: {start} a {end}, nome_pdf: {name}")
 
         vendas = load_sales(csv_path, start, end)
         logger_sys.info(f"{len(vendas)} vendas carregadas e filtradas")
@@ -25,8 +25,10 @@ def main():
 
         if formato == "json":
             print(formatar_como_json(relatorio))
-        else:
+        elif formato == "texto":
             print(formatar_como_texto(relatorio))
+        else:
+            print(formatar_como_pdf(relatorio, name))
 
     except Exception as e:
         logger_sys.error(f"Erro durante a execução do programa: {e}", exc_info=True)
