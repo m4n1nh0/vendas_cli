@@ -29,7 +29,8 @@ def parse_args() -> Tuple[str, str, Optional[str], Optional[str], Optional[str]]
 Exemplos:
   vendas_cli vendas.csv
   vendas_cli vendas.csv --format (json ou text)
-  vendas_cli vendas.csv --start 2025-01-01 --end 2025-03-31 --format (json ou text)
+  vendas_cli vendas.csv --start 2025-01-01 --end 2025-03-31 --format (json ou text ou pdf)
+  vendas_cli vendas.csv --start 2025-01-01 --end 2025-03-31 --format pdf --name meu_arquivo.pdf
 """,
         formatter_class=argparse.RawTextHelpFormatter
     )
